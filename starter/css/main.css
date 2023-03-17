@@ -401,13 +401,18 @@ Hero
   border-radius: var(--borderRadius);
   position: relative;
 }
+  /* background: url(../assets/recipes/2ndmain.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ */
 .hero-container {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
-  background: rgb(0 0 0 / 0.4);
+  
+  
+  background: rgb(0 0 0 / 0.55);
   border-radius: var(--borderRadius);
   display: flex;
   align-items: center;
