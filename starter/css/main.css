@@ -318,3 +318,38 @@ Navbar
 .contact-link a {
   padding: 0.15rem 1rem;
 }
+
+/* Big screen setup */
+@media screen and (min-width:992px) {
+  .nav-btn {
+    display: none;
+  }
+  .navbar {
+    /* background: red; */
+    height: 7rem;
+  }
+  .nav-center {
+    display: flex;
+    align-items: center;
+  }
+  .nav-header {
+    height: auto;
+    margin-right: 2rem;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width: 100%;
+  }
+  .nav-link {
+    border-top: 0;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  .contact-link {
+    margin-left: auto;
+  }
+}
