@@ -353,3 +353,44 @@ Navbar
     margin-left: auto;
   }
 }
+/*
+=============== 
+Main Page
+===============
+*/
+.page {
+  /* background: red; */
+  width: 90vw;
+  max-width: var(--max-width);
+  padding-top: 2rem;
+  margin: 0 auto;
+  min-height: calc(100vh - (6rem + 4rem))
+  
+  /* height: 7rem; */
+}
+/*
+=============== 
+Footer
+===============
+*/
+.page-footer {
+  height: 4rem;
+  background: var(--black);
+  text-align: center;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.page-footer p {
+  margin-bottom: 0;
+}
+.footer-logo, .page-footer a {
+  color: var(--primary-500);
+}
+/*
+=============== 
+Navbar
+===============
+*/
