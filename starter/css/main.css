@@ -525,6 +525,29 @@ Recipe container
 }
 /*
 =============== 
+Error Page
+===============
+*/
+.error-page {
+  text-align: center;
+  padding-top: 5rem;
+
+}
+.error-page h1 {
+  font-size: 15rem;
+  font-style: oblique;
+}
+
+/*
+=============== 
+Tag-template
+===============
+*/
+div .beef {
+  color: var(--grey-500);
+}
+/*
+=============== 
 Navbar
 ===============
 */
