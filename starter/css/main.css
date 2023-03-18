@@ -548,6 +548,47 @@ div .beef {
 }
 /*
 =============== 
+About page
+===============
+*/
+.about-page h2{
+  text-transform: none;
+  font-weight: bold;
+}
+.about-page {
+  display: grid;
+  gap: 2rem 4rem;
+  padding-bottom: 3rem;
+}
+
+.featured-title {
+  text-align: center;
+  color: var(--grey-500);
+}
+.about-img {
+  border: 1px solid red;
+  /* width: 450px; */
+  height: 340px;
+  contain: content;
+  border-radius: var(--borderRadius);
+}
+@media screen and (min-width:992px) {
+  .about-page {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+  }
+  .about-img {
+    height: 100%;
+  }
+} 
+
+/*
+=============== 
+Navbar
+===============
+*/
+/*
+=============== 
 Navbar
 ===============
 */
