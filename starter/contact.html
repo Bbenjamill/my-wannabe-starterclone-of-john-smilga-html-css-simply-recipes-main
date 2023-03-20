@@ -46,22 +46,40 @@
     <!-- End of nav bar -->
     <!-- Main PAge -->
     <main class="page">
-      <section class="contact-info">
-        <article>
+      <section class="contact-container">
+        <article class="contact-info">
           <h2>Want to get updates?</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ab optio voluptatibus earum ratione commodi ea consequatur accusantium dolore. Modi.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quos beatae ut adipisci sequi unde harum aperiam corrupti debitis ea.</p>
+          <p>Hashtag swag health goth air plant, raclette listicle fingerstache cold-pressed fanny pack bicycle rights cardigan poke.</p>
         </article>
-        <form class="form">
-          <label for="name" class="form-info form-name">Name</label>
-          <input type="text" class="form-input form-name" placeholder="Your name">
-          <label for="number" class="form-info form-number">Number</label>
-          <input type="number" class="form-input form-number" placeholder="Your number">
-          <label for="email" class="form-info form-email">Email</label>
-          <input type="email" class="form-input form-email">
-          <label for="text" class="form-info form-text">Your opinion</label>
-          <textarea class="textarea" ></textarea>
-        </form>
+        <article class="contact-form">
+          <form class="form contact-form">
+            <!-- Single form row -->
+            <div class="form-row">
+              <label for="name" class="form-label">Your Name</label>
+            <input type="text" id="name" class="form-input">
+            </div>
+            <!-- End of single form -->
+            <!-- Single form row -->
+            <div class="form-row">
+              <label for="email" class="form-label">Your email</label>
+            <input type="email" id="email" class="form-input">
+            </div>
+            <!-- End of single form -->
+            <!-- Single form row -->
+            <div class="form-row">
+              <label for="Number" class="form-label">Your Number</label>
+            <input type="number" id="Number" class="form-input">
+            </div>
+            <!-- End of single form -->
+            <div class="form-row">
+              <label for="message" class="form-label">message</label>
+              <textarea name="message" id="message" class="form-textarea"></textarea>
+            </div>
+            <button type="submit" class="btn btn-block">submit</button>
+          </form>
+        </article>
       </section>
       <section class="featured-recipes">
         <h5 class="featured-title">Look at the Deliciousness!</h5>
