@@ -609,6 +609,48 @@ Contact
 }
 /*
 =============== 
+Tags
+===============
+*/
+.tags-wrapper {
+  display: grid;
+  gap: 2rem;
+}
+.tag {
+  background: var(--grey-500);
+  color: var(--white);
+  border-radius: var(--borderRadius);
+  text-align: center;
+  transition: var(--transition);
+  padding: 0.75rem 0;
+}
+.tag:hover {
+  background: var(--primary-500);
+}
+.tag h5, .tag p {
+  margin-bottom: 0;
+}
+.tag h5 {
+  font-weight: 600;
+}
+@media screen and (min-width: 562px) {
+  .tags-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 992px) {
+  .tags-wrapper {
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/*
+=============== 
+Navbar
+===============
+*/
+/*
+=============== 
 Navbar
 ===============
 */
